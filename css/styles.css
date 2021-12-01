@@ -1,0 +1,84 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+.container-fluid{
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    background-color: #005FB7;
+}
+
+.mtn-logo{
+    width: 50px;
+    height: 50px;
+    margin: 20px 0;
+}
+
+.img-overlay{
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    top: 0;
+    left: 0;
+    background-image: url("../images/celebration-bg.png");
+    background-repeat: no-repeat;
+}
+
+.congrats{
+    font-size: 30px;
+    font-weight:bolder;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+.rounded-3{
+    margin:40px 0 ;
+    background-color:#FFFFFF ;
+    border-radius: 15px!important;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+}
+
+
+.back{
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.back:hover{
+    border: none;
+    box-shadow: none;
+    background-color:black ;
+    color: #fff;
+}
+
+
+.material-icons{
+    
+    background: #FFCC00;
+    border-radius: 2px;
+    font-size: 34px!important;
+    
+}
+
+.material-icons:hover{
+    background: black;
+
+}
+
+
+
+@media screen and (max-width:768px) {
+.img-overlay{
+    height: 30%;
+}
+
+}
